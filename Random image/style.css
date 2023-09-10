@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(field.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+h1{
+    color: limegreen;
+    text-align: center;
+    font-family: fantasy;
+    word-spacing: 25px;
+}
+
+div{
+    width: 350px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+img{
+    display: block;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: auto;
+    overflow: hidden;
+}
+.buttons{
+    display: flex;
+    margin: 8px auto;
+    gap: 30px;
+    height: 25px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+    background: #01ffaaef;
+    font-size: 13px;
+    border-radius: 3px;
+    transition: all 0.6s;
+    padding: 0 14px;
+}
+
+button:hover{
+    background:black;
+    color: white;
+}
+
+#roll{
+    text-align: center;
+    color: hwb(294 91% 5%);
+    font-size: 22px;
+    margin-top: 4%;
+    font-weight: 800;
+}
